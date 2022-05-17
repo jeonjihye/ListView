@@ -8,6 +8,11 @@
     android:orientation="vertical"
     android:padding="20dp">
 
+    <ListView
+        android:id="@+id/studentListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 
 </LinearLayout>
