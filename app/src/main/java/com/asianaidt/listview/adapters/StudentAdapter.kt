@@ -16,10 +16,7 @@ class StudentAdapter(val mContext: Context,
 
         var tempRow = convertView
         if(tempRow == null) {
-
             tempRow = LayoutInflater.from(mContext).inflate(R.layout.student_list_item, null)
-
-
         }
 //        tempRow는 Null 이 들어있을 가능성이 없다!
         val row = tempRow!! // row 가 리스트뷰의 한 줄에 해당하는 그림(View 타입)
