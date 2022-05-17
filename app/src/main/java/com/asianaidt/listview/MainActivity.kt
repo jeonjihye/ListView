@@ -10,6 +10,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     val mStudentList = ArrayList<StudentData>()
+    //멤버변수 중 초기화를 나중으로 미루고 싶은 변수에 사용
+    // -> context 자리에 this를 넣은 것은 setContentView 함수 이후에 넣어야함
     lateinit var mAdapter: StudentAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
